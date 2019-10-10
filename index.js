@@ -1,6 +1,5 @@
 var csv = require('csv');
 const fs = require('fs');
-const regexpTree = require('regexp-tree');
 var obj = csv();
 // Require `PhoneNumberFormat`.
 const PNF = require('google-libphonenumber').PhoneNumberFormat;
